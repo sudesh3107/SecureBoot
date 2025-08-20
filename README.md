@@ -35,9 +35,10 @@
    - After rebooting, check Secure Boot status:
      ```bash
      mokutil --sb-state
-     ```
+    ```
+ - Output should state: `SecureBoot enabled`  
 ---
-    - Output should state: `SecureBoot enabled`
+
    - > **⚠️ Warning & Important Notes**
 > - If you get errors, ensure `shim` and `grub2-efi` are installed:
 >   ```bash
